@@ -11,7 +11,7 @@ namespace MocCapstoneProject {
 		public string Username { get; set; }
 		public bool IsReviewer { get; set; }
 		public string email { get; set; }
-		public List<PurchaseRequest> PurchaseRequests = new List<PurchaseRequest>();
+		public List<PurchaseRequest> PurchaseRequests = new List<PurchaseRequest>();S
 
 		public PurchaseRequest NewPurchaseRequest (User user, Vendor vendor, Product product, DateTime dateNeeded, string description , int quantity,String status = "New" ) {
 			PurchaseRequest PurReq = new PurchaseRequest() {
